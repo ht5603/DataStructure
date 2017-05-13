@@ -1,0 +1,32 @@
+# 註解, 會被忽略.
+# 可加入想要忽略追蹤的檔案, 目錄, 副檔名,ect.
+
+#不要追蹤副檔名為.class結尾的檔案
+*.class
+
+# Mobile Tools for Java (J2ME)
+#.mtj.tmp/
+
+# 忽略副檔名為以下結尾的檔案
+# Package Files # 
+*.war
+*.ear
+*.scc
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+#hs_err_pid*
+
+# 忽略META-INF/目錄下所有檔案
+#META-INF/
+bin/
+build/
+
+
+# 忽略.settings/目錄下所有檔案
+.settings/
+
+
+#與Gradle相關可忽略的目錄與檔案
+.gradle/
+build/
+
